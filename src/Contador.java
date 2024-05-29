@@ -26,8 +26,9 @@ public class Contador {
         else{
             int contagem = p2 - p1;
 
-            for(int i = 0; i < contagem; i++){
-                System.out.println("Imprimindo o número " + (i+1));
+            for(int i = 0; i <= contagem; i++){
+                System.out.println("Imprimindo o número " + (p1));
+                p1 += 1;
             }
         }
     }
